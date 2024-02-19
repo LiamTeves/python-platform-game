@@ -15,6 +15,11 @@ PLAYER_VEL = 5
 
 window = pygame.display.set_mode((WIDTH, HEIGHT))
 
+def get_background():
+    pass
+
+
+
 def main(window):
     clock = pygame.time.Clock()
 
@@ -27,8 +32,8 @@ def main(window):
                 run = False
                 break
 
-pygame.quit()
-quit()
+    pygame.quit()
+    quit()
 
 if __name__ == "__main__":
     main(window)
